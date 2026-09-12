@@ -21,23 +21,23 @@ export const Navbar = () => {
           </div>
 
           <ul className="hidden items-center gap-8 lg:flex">
-            <li className="cursor-pointer text-[14px] font-medium text-pink-500">
+            <li className="cursor-pointer text-[15px] font-medium text-pink-500">
               Home
             </li>
 
-            <li className="cursor-pointer text-[14px] font-medium text-gray-600 transition-colors duration-300 hover:text-pink-500">
+            <li className="cursor-pointer text-[15px] font-medium text-gray-600 transition-colors duration-300 hover:text-pink-500">
               Technologies
             </li>
 
-            <li className="cursor-pointer text-[14px] font-medium text-gray-600 transition-colors duration-300 hover:text-pink-500">
+            <li className="cursor-pointer text-[15px] font-medium text-gray-600 transition-colors duration-300 hover:text-pink-500">
               Projects
             </li>
 
-            <li className="cursor-pointer text-[14px] font-medium text-gray-600 transition-colors duration-300 hover:text-pink-500">
+            <li className="cursor-pointer text-[15px] font-medium text-gray-600 transition-colors duration-300 hover:text-pink-500">
               About
             </li>
 
-            <li className="cursor-pointer text-[14px] font-medium text-gray-600 transition-colors duration-300 hover:text-pink-500">
+            <li className="cursor-pointer text-[15px] font-medium text-gray-600 transition-colors duration-300 hover:text-pink-500">
               Contact
             </li>
           </ul>
@@ -45,14 +45,14 @@ export const Navbar = () => {
           <div className="hidden items-center gap-6 lg:flex">
             <button
               type="button"
-              className="text-[14px] font-medium text-gray-600 transition-colors duration-300 hover:text-pink-500"
+              className="text-[15px] font-medium text-gray-600 transition-colors duration-300 hover:text-pink-500"
             >
               Sign In
             </button>
 
             <button
               type="button"
-              className="rounded-full bg-[#D91B7E] px-5 py-2 text-[13px] font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
+              className="rounded-full bg-[#D91B7E] px-5 py-2 text-[15px] font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
             >
               Sign Up
             </button>
