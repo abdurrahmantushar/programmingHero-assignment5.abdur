@@ -58,7 +58,7 @@ export const TechnologySection = () => {
         id="technologies"
         className="flex min-h-[400px] items-center justify-center bg-white"
       >
-        <p className="text-sm text-gray-500">
+        <p className="text-bold text-gray-500">
           Loading technologies...
         </p>
       </section>

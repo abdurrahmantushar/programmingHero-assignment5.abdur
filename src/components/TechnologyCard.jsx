@@ -35,7 +35,7 @@ export const TechnologyCard = ({
         {technology.name}
       </h3>
 
-      <p className="mt-2 min-h-[48px] text-[11px] leading-[19px] text-[#64748B]">
+      <p className="mt-2 min-h-[48px] text-[12px] leading-[19px] text-[#64748B]">
         {technology.description}
       </p>
 
