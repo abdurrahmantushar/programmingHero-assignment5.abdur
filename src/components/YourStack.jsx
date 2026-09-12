@@ -12,12 +12,12 @@ export const YourStack = ({
         Your Stack
       </h3>
 
-      <p className="mt-1 text-xs text-gray-400">
+      <p className="mt-1 text-xs font-medium text-gray-400">
         {selectedStack.length} Technology Selected
       </p>
 
       {selectedStack.length === 0 ? (
-        <div className="mt-4 flex h-24 items-center justify-center rounded-lg border border-dashed border-gray-200 text-xs text-gray-400">
+        <div className="mt-4 flex h-24 items-center justify-center rounded-lg border border-dashed border-gray-200 text-xs font-medium text-gray-400">
           Your stack is empty.
         </div>
       ) : (
