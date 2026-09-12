@@ -18,11 +18,11 @@ export const TechnologyCard = ({
       }`}
     >
       <div className="flex items-start justify-between">
-        <div className="flex h-[35px] w-[35px] items-center justify-center">
+        <div className="flex h-[40px] w-[40px] items-center justify-center">
           <img
             src={technology.icon}
             alt={technology.name}
-            className="h-8 w-8 object-contain"
+            className="h-10 w-10 object-contain"
           />
         </div>
 
