@@ -26,7 +26,7 @@ export const TechnologyCard = ({
           />
         </div>
 
-        <span className="rounded-full bg-[#EEF8FF] px-3 py-1 text-[10px] font-medium text-[#0095E8]">
+        <span className="rounded-full bg-[#EEF8FF] px-3 py-1 text-[10px] font-semibold text-[#0095E8]">
           {technology.badge}
         </span>
       </div>
@@ -45,7 +45,7 @@ export const TechnologyCard = ({
             {technology.category}
           </span>
 
-          <span className="text-[12px] text-[#64748B]">
+          <span className="text-[12px] font-semibold text-[#64748B]">
             {technology.difficulty}
           </span>
 
