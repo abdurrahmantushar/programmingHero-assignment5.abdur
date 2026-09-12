@@ -12,11 +12,11 @@ export const StackItem = ({ technology, onRemove }) => {
       </div>
 
       <div className="flex-1">
-        <h4 className="text-sm font-semibold text-[#111827]">
+        <h4 className="text-[15px] font-semibold text-[#111827]">
           {technology.name}
         </h4>
 
-        <p className="mt-0.5 text-xs text-gray-400">
+        <p className="mt-0.5 text-xs font-semibold text-gray-400">
           {technology.category}
         </p>
       </div>
